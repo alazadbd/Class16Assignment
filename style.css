@@ -1,0 +1,86 @@
+/* ================header section=========== */
+.header-section{
+    background-color: navy;
+    overflow: hidden;
+}
+.logo{
+    transition: .5s ease;
+    
+}
+.logo:hover{
+    
+    transform: rotate(360deg);
+}
+.navigation-menu ul{
+    list-style: none;
+    
+}
+.navigation-menu ul li{
+    display: inline-block;
+}
+.navigation-menu ul li a {
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+	line-height: 55px;
+    transition: .5s;
+}
+.navigation-menu ul li a:hover{
+    color: #838282;
+}
+/* =============header section end=============== */
+/* ================banner section start============= */
+.banner-section{
+    background-image: url(https://iili.io/Hrfi0X9.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    height: 650px;
+}
+.banner-content {
+	padding-top: 326px;
+    color: white;
+}
+.btn{
+    background: #337AB7;
+}
+.btn:hover{
+    border: 1px solid red;
+}
+/* ================banner section end================ */
+/* =================Team section==================== */
+.about-section{
+    background-color: #C2D4EA;
+}
+.team-section{
+    background-color: #BAC1F3;
+}
+.card-item{
+    text-align: center;  
+}
+.card-item h1{
+    font-size: 60px;
+}
+.image1{
+    width: 130px;
+    height: 200px;
+}
+.about-profile .first-heading{
+    font-size: 50px;
+}
+/* =================Team section end==================== */
+/* contact section */
+.contact1{
+    font-size: 50px;
+}
+/* contact section end */
+/* footer section */
+.fp{
+    font-size: 15px ; 
+}
+.fp p {
+	margin-top: 7px;
+}
+/* footer section end */
